@@ -15,7 +15,7 @@ Appunti operativi per il setup completo del tracciamento camera con HTC Vive Tra
 
 ## Avviare SteamVR senza headset (Null Driver)
 
-Prima di tutto occorre configurare SteaVR, per l'uso senza visore. Coi sono alcuni passaggi da efefttuare:
+Prima di tutto occorre configurare SteaVR, per l'uso senza visore. Ci sono alcuni passaggi da effettuare:
 Prima di tutto, è necessario abilitare il **null driver** di SteamVR. Occorre modificare due file: il `default.vrsettings` del null driver e il `default.vrsettings` di SteamVR.
 
 ### Directory di Steam
