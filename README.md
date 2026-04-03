@@ -173,6 +173,12 @@ A seconda di come il tracker è montato fisicamente sulla camera, potrebbe esser
 
 > 💡 **Metodo consigliato**: muovere la camera reale in una direzione alla volta (solo avanti, solo su, solo a destra) e verificare che la camera virtuale si muova nella stessa direzione. Correggere asse per asse fino ad allineamento completo.
 
+> 🔧 **TODO:** Il LiveLink Controller Component trasmette i dati di posizione grezzi dal tracker, 
+> il che può causare **jitter** (tremolìo) visibile sulla camera virtuale. 
+> Per uso in produzione sarà necessario sostituirlo con un **Blueprint personalizzato** 
+> che filtri/smussa i dati in ingresso (es. con un filtro low-pass o media mobile).
+> Per il preview il setup attuale è sufficiente.
+
 
 
 *— Appunti in aggiornamento continuo*
